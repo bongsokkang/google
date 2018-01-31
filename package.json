@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack --colors",
-    "prod": "webpack -p --colors",
-    "dev": "webpack-dev-server --colors",
+    "webpack": "webpack --progress --colors",
+    "prod": "webpack -p --progress --colors",
+    "dev": "webpack-dev-server --progress --colors",
     "start": "npm run dev"
   },
-  "author": "Brent Jackson",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.7.4",
