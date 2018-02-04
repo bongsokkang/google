@@ -1,10 +1,13 @@
 
 module.exports = {
-  title: 'Mexican Cafe from Bargain Serving',
-  description: 'this is real',
+  title: 'KangLandscaping Cafe from Bargain Serving',
+  description: 'Landscape',
   routes: [
     '/',
-    '/about'
+    '/about',
+    '/about1',
+    '/about2',
+    '/Card',
+
   ]
 }
-
