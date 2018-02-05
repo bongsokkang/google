@@ -3,15 +3,18 @@
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "engines": {
+		"node": "8.9.4"
+	},
   "scripts": {
     "webpack": "webpack --progress --colors",
     "prod": "webpack -p --progress --colors",
     "dev": "webpack-dev-server --progress --colors",
     "start": "npm run dev"
   },
-  "author": "",
+  "author": "Brent Jackson",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "babel-core": "^6.7.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2016": "^6.0.10",
@@ -20,8 +23,10 @@
     "basscss": "^6.1.6",
     "css-loader": "^0.14.4",
     "node-libs-browser": "^0.5.2",
+
     "react": "^0.13.3",
     "react-router": "^0.13.3",
+    
     "static-site-generator-webpack-plugin": "1.1.2",
     "webpack": "^1.9.10",
     "webpack-dev-server": "^1.9.0"

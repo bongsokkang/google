@@ -31,7 +31,10 @@ var Root = React.createClass({
         <h1>{this.props.description}</h1>
         <body className='p2'>
           <Header {...this.props} />
+  
           <RouteHandler {...this.props} />
+    
+
           <script
             id='initial-props'
             type='application/json'
