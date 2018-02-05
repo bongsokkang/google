@@ -7,9 +7,9 @@
 		"node": "8.9.4"
 	},
   "scripts": {
-    "webpack": "webpack --progress --colors",
-    "prod": "webpack -p --progress --colors",
-    "dev": "webpack-dev-server --progress --colors",
+    "webpack": "webpack",
+    "prod": "webpack ",
+    "dev": "webpack-dev-server",
     "start": "npm run dev"
   },
   "author": "Brent Jackson",
