@@ -9,12 +9,12 @@
   "scripts": {
     "webpack": "webpack --progress --colors",
     "prod": "webpack -p --progress --colors",
-    "dev": "webpack-dev-server --colors",
+    "dev": "webpack-dev-server --progress --colors",
     "start": "npm run dev"
   },
   "author": "Brent Jackson",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^6.7.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2016": "^6.0.10",
