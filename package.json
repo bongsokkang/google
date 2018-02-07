@@ -8,9 +8,10 @@
 	},
   "scripts": {
     "webpack": "webpack",
-    "prod": "webpack ",
-    "dev": "webpack-dev-server",
-    "start": "npm run dev"
+    "prod": "webpack -p --colors",
+    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "npm run dev",
+    "postinstall": "npm run prod"
   },
   "author": "Brent Jackson",
   "license": "MIT",
